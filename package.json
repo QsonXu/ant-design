@@ -40,6 +40,9 @@
   "module": "es/index.js",
   "unpkg": "dist/antd.min.js",
   "typings": "lib/index.d.ts",
+  "bin" : { 
+    "rimraf" : "node_modules/rimraf/bin.js" 
+  },
   "scripts": {
     "api-collection": "antd-tools run api-collection",
     "authors": "git log --format='%aN <%aE>' | sort -u | grep -v 'users.noreply.github.com' | grep -v 'gitter.im' | grep -v '.local>' | grep -v 'alibaba-inc.com' | grep -v 'alipay.com' | grep -v 'taobao.com' > AUTHORS.txt",
